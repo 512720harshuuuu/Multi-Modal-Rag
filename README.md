@@ -74,7 +74,7 @@ Or set it directly in the Streamlit interface.
 ### 1. Test Document Extraction
 
 ```bash
-python document_extractor.py
+python pdf_extractor.py
 ```
 
 **What it does:**
@@ -91,7 +91,7 @@ python document_extractor.py
 ### 2. Test RAG System
 
 ```bash
-python anthropic_rag.py
+python multi_modal_rag.py
 ```
 
 **What it does:**
