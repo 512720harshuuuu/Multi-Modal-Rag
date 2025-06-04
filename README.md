@@ -11,8 +11,8 @@ This system processes documents (PDFs, Word files, images) and creates an intell
 
 ```
 project/
-├── document_extractor.py     # PDF/Document extraction and processing
-├── anthropic_rag.py         # RAG system with Claude integration
+├── pdf_extractor.py     # PDF/Document extraction and processing
+├── multi_modal_rag.py         # RAG system with Claude integration
 ├── app.py                   # Streamlit web interface
 ├── requirements.txt         # Python dependencies
 ├── extracted_content/       # Output directory
