@@ -1,0 +1,46 @@
+# Core AI Libraries
+anthropic>=0.34.0
+sentence-transformers>=2.2.2
+transformers>=4.35.0
+
+# Scientific Computing
+numpy>=1.24.0
+scikit-learn>=1.3.0
+
+# Vector Database & Search (Choose one)
+chromadb>=0.4.22
+# Alternative: faiss-cpu>=1.7.4
+
+# Data Processing
+pandas>=2.0.0
+pydantic>=2.5.0
+python-dotenv>=1.0.0
+tqdm>=4.66.0
+
+# Image Processing & OCR
+Pillow>=10.0.0
+pytesseract>=0.3.10
+opencv-python>=4.8.0
+PyMuPDF>=1.23.0
+
+
+# Optional: Web Framework
+fastapi>=0.104.0
+uvicorn>=0.24.0
+
+# Development Tools
+pytest>=7.4.0
+jupyter>=1.0.0
+black>=23.0.0
+
+# Optional: Better Performance
+torch>=2.0.0  # For sentence-transformers GPU acceleration
+# accelerate>=0.24.0  # For faster model loading
+
+# Optional: Async Support
+httpx>=0.25.0
+aiofiles>=23.2.0
+
+# Utilities
+loguru>=0.7.0
+streamlit==1.28.0
