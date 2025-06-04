@@ -231,10 +231,6 @@ response = rag.query_with_selective_image_processing("What does the chart show?"
 3. Make changes with tests
 4. Submit pull request
 
-## 📄 License
-
-[Add your license information here]
-
 ## 🆘 Support
 
 For issues and questions:
